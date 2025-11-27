@@ -83,6 +83,28 @@ animatedElements.forEach(element => {
   observer.observe(element);
 });
 
+// Reveal timeline items on scroll using IntersectionObserver
+const timelineItems = document.querySelectorAll(".timeline-item");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        // Remove to allow re-animating when scrolling back, or keep if you only want it once
+        entry.target.classList.remove("show");
+      }
+    });
+  },
+  {
+    threshold: 0.2,
+    rootMargin: "0px 0px -80px 0px",
+  }
+);
+
+timelineItems.forEach((item) => observer.observe(item));
+
 // Contact Form Handling
 const contactForm = document.getElementById('contactForm');
 const formMessage = document.getElementById('formMessage');
