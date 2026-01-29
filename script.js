@@ -52,7 +52,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     const mailtoLink = `mailto:epaalemayehu@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
     
     // In production, send to a backend service
-    alert('Thank you for reaching out! Your message has been prepared.\nFor now, you can also reach me directly at ephrem823@gmail.com');
+    alert('Thank you for reaching out! Your message has been prepared.\nFor now, you can also reach me directly at epaalemayehu@gmail.com');
     
     // Reset form
     this.reset();
