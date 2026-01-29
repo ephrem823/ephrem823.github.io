@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ephrem Alemayehu - Backend Developer & Data Scientist specializing in AI/ML, NLP, and Speech Recognition">
+    <meta name="keywords" content="Backend Developer, Data Scientist, ML Engineer, Python, PyTorch, NLP, Chrome Extension, Machine Translation">
+    <meta name="author" content="Ephrem Alemayehu">
+    <meta property="og:title" content="Ephrem Alemayehu | Backend & Data Science">
+    <meta property="og:description" content="Explore AI/ML projects and expertise in NLP, Speech Recognition, and Chrome Extensions">
+    <meta property="og:type" content="website">
     <title>Ephrem Alemayehu | Backend & Data Science</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Scroll Progress Bar -->
+    <div id="scrollProgress"></div>
+
+    <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
             <a href="#hero" class="logo">EA</a>
             <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">Ephrem Alemayehu</h1>
-            <p class="hero-subtitle" id="tagline">Backend Developer & Data Scientist</p>
+            <p class="hero-subtitle">Backend Developer & Data Scientist</p>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                Building intelligent systems with <strong>Python, PyTorch,</strong> and <strong>LLMs</strong>
+            </p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
                 <a href="https://github.com/ephrem823" target="_blank" class="btn btn-outline">GitHub Profile</a>
@@ -31,6 +45,114 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-header">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>ML Engineer & Full-Stack Developer</h3>
+                    <p>I'm a passionate machine learning engineer from Haramaya, Ethiopia, specializing in building intelligent systems that solve real-world problems. My expertise spans backend development, deep learning, NLP, and browser extensions.</p>
+                    <p>Currently focused on leveraging transformer models, LLMs, and neural machine translation to create innovative solutions in audio processing, speech recognition, language translation, and AI-powered applications.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <strong>Location:</strong>
+                            <span>Deder, Oromiya, Ethiopia</span>
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Focus:</strong>
+                            <span>ML/AI, NLP, Speech Recognition, Extensions, Backend Systems</span>
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Experience:</strong>
+                            <span>3+ years in ML/Data Science, Active in Open Source</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 200px; height: 200px; background: linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.3)); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid var(--primary-color);">
+                        <div style="font-size: 4rem;">👨‍💻</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-header">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>🔧 Backend & Web</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>FastAPI / Flask</li>
+                        <li>Node.js</li>
+                        <li>REST APIs</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🤖 Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>PyTorch</li>
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn</li>
+                        <li>Model Fine-tuning</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>📚 NLP & Audio AI</h3>
+                    <ul class="skill-list">
+                        <li>Transformers (Hugging Face)</li>
+                        <li>Speech Recognition</li>
+                        <li>Machine Translation</li>
+                        <li>LSTM / RNN</li>
+                        <li>LLM Fine-tuning</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🛠 Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Git / GitHub</li>
+                        <li>Docker</li>
+                        <li>Jupyter / Streamlit</li>
+                        <li>Conda / venv</li>
+                        <li>Cloud Deployment</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>📊 Data Science</h3>
+                    <ul class="skill-list">
+                        <li>Pandas / NumPy</li>
+                        <li>Data Visualization</li>
+                        <li>Statistical Analysis</li>
+                        <li>Feature Engineering</li>
+                        <li>Model Evaluation</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🌐 Other Skills</h3>
+                    <ul class="skill-list">
+                        <li>Chrome Extensions</li>
+                        <li>React / TypeScript</li>
+                        <li>HTML / CSS / JavaScript</li>
+                        <li>Agile Methodologies</li>
+                        <li>Technical Writing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
             <h2 class="section-header">Featured Projects</h2>
@@ -39,12 +161,106 @@
                 <article class="project-card">
                     <div class="project-content">
                         <div class="project-tags">
+                            <span class="tag">Chrome Extension</span>
+                            <span class="tag">TensorFlow.js</span>
+                            <span class="tag">React</span>
+                        </div>
+                        <h3>🔒 TikTok Age Gate Extension</h3>
+                        <p>A sophisticated Chrome extension that provides AI-powered age verification for TikTok using facial recognition technology. Features real-time face detection, local processing for privacy, and seamless TikTok integration with educational content for age-appropriate users.</p>
+                        <div class="project-features">
+                            <strong>Key Features:</strong>
+                            <ul style="margin: 0.5rem 0; padding-left: 1.5rem; font-size: 0.9rem;">
+                                <li>🎯 AI-powered facial age detection</li>
+                                <li>📱 Seamless TikTok integration</li>
+                                <li>🛡️ Privacy-first (local processing)</li>
+                                <li>⚡ Real-time verification</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> React, TypeScript, TensorFlow.js, Chrome API, Tailwind CSS
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ephrem823/extention" target="_blank" class="btn-sm">Source Code</a>
+                            <a href="https://github.com/ephrem823/extention#-how-it-works" target="_blank" class="btn-sm secondary">Documentation</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Machine Translation</span>
+                            <span class="tag">Transformers</span>
+                        </div>
+                        <h3>🌐 Amharic-English Machine Translation</h3>
+                        <p>A bilingual machine translation system combining TF-IDF similarity matching with Facebook's NLLB-200 neural model. Handles automatic language detection and provides seamless translation between Amharic and English with 10,000 parallel sentence pairs.</p>
+                        <div class="project-features">
+                            <strong>Key Features:</strong>
+                            <ul style="margin: 0.5rem 0; padding-left: 1.5rem; font-size: 0.9rem;">
+                                <li>🔍 Automatic language detection</li>
+                                <li>🧠 TF-IDF similarity matching</li>
+                                <li>🤖 Neural machine translation (NLLB-200)</li>
+                                <li>📊 10,000+ parallel sentences</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> PyTorch, Transformers, scikit-learn, Pandas, sentencepiece
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ephrem823/ML" target="_blank" class="btn-sm">View GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Question Answering</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3>❓ Amharic Question-Answering System</h3>
+                        <p>A TF-IDF based Question-Answering system for Amharic language using SQuAD-style dataset. Performs text cleaning, tokenization, stopword removal, and cosine similarity matching to retrieve accurate answers from a knowledge base.</p>
+                        <div class="project-features">
+                            <strong>Key Features:</strong>
+                            <ul style="margin: 0.5rem 0; padding-left: 1.5rem; font-size: 0.9rem;">
+                                <li>🧹 Text cleaning & tokenization</li>
+                                <li>📊 TF-IDF vectorization</li>
+                                <li>🔗 Cosine similarity matching</li>
+                                <li>🎯 Amharic stopword removal</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> Python, scikit-learn, JSON, NLP preprocessing
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ephrem823/ML" target="_blank" class="btn-sm">View GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-tags">
                             <span class="tag">LLM</span>
                             <span class="tag">Streamlit</span>
                             <span class="tag">Python</span>
                         </div>
-                        <h3>AMEK AI Engine</h3>
-                        <p>A multi-model orchestration assistant for strict code generation and file analysis.</p>
+                        <h3>🤖 AMEK AI Engine</h3>
+                        <p>A sophisticated multi-model orchestration assistant for strict code generation, file analysis, and intelligent automation. Powered by state-of-the-art LLMs with Streamlit frontend for seamless user interaction and real-time responses.</p>
+                        <div class="project-features">
+                            <strong>Key Features:</strong>
+                            <ul style="margin: 0.5rem 0; padding-left: 1.5rem; font-size: 0.9rem;">
+                                <li>🔄 Multi-model orchestration</li>
+                                <li>💻 Code generation & analysis</li>
+                                <li>📁 File processing</li>
+                                <li>⚡ Real-time responses</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> Python, Streamlit, LLM APIs, OpenAI/Anthropic
+                        </div>
                         <div class="project-links">
                             <a href="https://github.com/ephrem823/my-ai-bot" target="_blank" class="btn-sm">Source Code</a>
                             <a href="https://amekai.streamlit.app" target="_blank" class="btn-sm secondary">Live Demo</a>
@@ -55,24 +271,54 @@
                 <article class="project-card">
                     <div class="project-content">
                         <div class="project-tags">
+                            <span class="tag">Speech Recognition</span>
                             <span class="tag">PyTorch</span>
                             <span class="tag">Deep Learning</span>
                         </div>
-                        <h3>E2E-ASR System</h3>
-                        <p>Automatic Speech Recognition using Librispeech dataset and end-to-end architectures.</p>
-                        <a href="https://github.com/ephrem823/E2E-ASR-on-Librispeech" target="_blank" class="btn-sm">View GitHub</a>
+                        <h3>🎤 E2E-ASR System</h3>
+                        <p>End-to-end Automatic Speech Recognition system trained on Librispeech dataset. Implements advanced deep learning architectures for accurate speech-to-text conversion with real-time inference capabilities using attention mechanisms.</p>
+                        <div class="project-features">
+                            <strong>Key Features:</strong>
+                            <ul style="margin: 0.5rem 0; padding-left: 1.5rem; font-size: 0.9rem;">
+                                <li>🎯 End-to-end architecture</li>
+                                <li>📊 Librispeech dataset (960h)</li>
+                                <li>⚡ Real-time inference</li>
+                                <li>🧠 Attention mechanisms</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> PyTorch, TorchAudio, Transformer blocks, CTC Loss
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ephrem823/E2E-ASR-on-Librispeech" target="_blank" class="btn-sm">View GitHub</a>
+                        </div>
                     </div>
                 </article>
 
                 <article class="project-card">
                     <div class="project-content">
                         <div class="project-tags">
-                            <span class="tag">Audio AI</span>
+                            <span class="tag">Keyword Spotting</span>
                             <span class="tag">LSTM</span>
+                            <span class="tag">Audio AI</span>
                         </div>
-                        <h3>E2E-KWS Spotter</h3>
-                        <p>Real-time keyword spotting system using character-level recurrent neural networks.</p>
-                        <a href="https://github.com/ephrem823/E2E-KWS" target="_blank" class="btn-sm">View GitHub</a>
+                        <h3>🔊 E2E-KWS Spotter</h3>
+                        <p>Real-time keyword spotting system using character-level recurrent neural networks. Efficiently detects specific keywords in continuous audio streams with minimal latency, perfect for voice activation systems and always-on detection scenarios.</p>
+                        <div class="project-features">
+                            <strong>Key Features:</strong>
+                            <ul style="margin: 0.5rem 0; padding-left: 1.5rem; font-size: 0.9rem;">
+                                <li>⚡ Real-time detection</li>
+                                <li>🔤 Character-level processing</li>
+                                <li>💾 Minimal latency</li>
+                                <li>🎯 High accuracy</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> PyTorch, LSTM/GRU, Audio preprocessing, TorchAudio
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ephrem823/E2E-KWS" target="_blank" class="btn-sm">View GitHub</a>
+                        </div>
                     </div>
                 </article>
 
@@ -80,10 +326,50 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-header">Get In Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/ephrem823" target="_blank" class="social-icon" title="GitHub">
+                        <span>🔗</span>
+                    </a>
+                    <a href="mailto:ephrem823@gmail.com" class="social-icon" title="Email">
+                        <span>✉️</span>
+                    </a>
+                    <a href="https://linkedin.com/in/ephrem-alemayehu" target="_blank" class="social-icon" title="LinkedIn">
+                        <span>💼</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Ephrem Alemayehu. Crafted with code.</p>
+        <p>&copy; 2026 Ephrem Alemayehu. All rights reserved. Crafted with <span style="color: var(--error);">❤️</span> and code.</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
